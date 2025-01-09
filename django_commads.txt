@@ -1,0 +1,6 @@
+django-admin startproject food_online_main .
+python manage.py
+python manage.py runserver
+git add .	Stages changes in the current directory and its subdirectories.
+git add -u	Stages modified and deleted files, but not new files.
+git add -A	Stages all changes (new, modified, and deleted files) across the entire repository.
