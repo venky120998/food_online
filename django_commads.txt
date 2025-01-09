@@ -4,3 +4,12 @@ python manage.py runserver
 git add .	Stages changes in the current directory and its subdirectories.
 git add -u	Stages modified and deleted files, but not new files.
 git add -A	Stages all changes (new, modified, and deleted files) across the entire repository.
+python manage.py migrate [To apply changes to the database.]
+python manage.py createsuperuser
+python manage.py collectstatic
+
+
+        (user name) 
+sudo -u postgres psql
+postgres=# alter user postgres with password '12345';
+quit
