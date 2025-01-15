@@ -47,7 +47,7 @@ HTML
 {{form.password}}   ###to intergrate the fields in form
 {% csrf token %}    ### When using post method
 action = "{% url 'register_user' %}"  ### form actions
-
+enctype="multipart/form-data" ### When ever adding files from to the form <form action>
 
 ### for field error
 <ul class="errorlist">
